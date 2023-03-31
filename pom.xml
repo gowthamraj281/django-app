@@ -4,14 +4,14 @@
   <packaging>pom</packaging>
 
   <parent>
-    <groupId>xxx.yyy</groupId>
+    <groupId>django-app</groupId>
     <artifactId>parent-pom</artifactId>  
     <version>0.0.1-SNAPSHOT</version>
   </parent>  
 
   <dependencies>
     <dependency>
-        <groupId>xxx.yyy</groupId>
+        <groupId>django-app</groupId>
         <artifactId>common</artifactId>
     </dependency>  
   </dependencies>
@@ -26,7 +26,7 @@
                 <execution>
                     <configuration>
                         <executable>python</executable>
-                        <workingDirectory>src\main\python\xxx\yyy\project1\</workingDirectory>
+                        <workingDirectory>C:\ProgramData\Jenkins\.jenkins\workspace\test</workingDirectory>
                         <arguments>
                             <argument>Launcher.py</argument>
                         </arguments>
